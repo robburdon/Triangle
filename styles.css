@@ -1,0 +1,40 @@
+#game-container {
+    max-width: 200px; /* Adjust this to fit your desired maximum width */
+    margin: 0 auto;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 0;
+}
+
+.cell {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    height: 20px;
+    width: 20px;
+}
+
+.player {
+    text-align: center;
+    color: #000;
+}
+
+@keyframes rise {
+    0% {
+        transform: translateY(100%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-800%);
+        opacity: 0;
+    }
+}
+
+.rising {
+    position: absolute;
+    animation: rise 5s linear infinite;
+}
+
