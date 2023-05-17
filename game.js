@@ -84,7 +84,7 @@ document.addEventListener('keydown', function(event) {
     movePlayer(event.key);
 })
 
-const egyptianCharacters = ['Where lies the strangling fruit', 'the Pyramid stands, a testament to times relentless sand','the Pyramid that came from the hand of the sinner', ,'the Pyramid shall bring forth the seeds of the dead','to share with the worms that gather in the darkness','and surround the pyramid','while from the dimlit interior halls of other pyramids','forms that never were and never could be','writhe for the impatience of the few','in the black water with the sun shining at midnight','those fruit shall come ripe in the chambers of the sacred form','the revelation of the fatal softness in the earth','In the embrace of the Pyramid, the self is lost and found,'𓂁', '𓂂','𓅶',];  // Add more characters as needed
+const egyptianCharacters = ['Where lies the strangling fruit','the Pyramid stands, a testament to times relentless sand','the Pyramid that came from the hand of the sinner','the Pyramid shall bring forth the seeds of the dead','to share with the worms that gather in the darkness','and surround the pyramid','while from the dimlit interior halls of other pyramids','forms that never were and never could be','writhe for the impatience of the few','in the black water with the sun shining at midnight','those fruit shall come ripe in the chambers of the sacred form','the revelation of the fatal softness in the earth','In the embrace of the Pyramid, the self is lost and found,'𓂁', '𓂂','𓅶'];  // Add more characters as needed
 
 function createRisingCharacter() {
     // Create a new div for the character
